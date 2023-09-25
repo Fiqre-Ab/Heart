@@ -28,3 +28,18 @@ h1 {
     transform: scale(1);
   }
 }
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  header h1,
+  .heart {
+    font-size: 2rem;
+    display: block;
+    position: relative;
+  }
+  .heart {
+    padding-left: 79px;
+    font-size: 10rem;
+  }
+}
