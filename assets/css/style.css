@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: darkblue;
+}
+header h1 {
+  color: white;
+  text-decoration: underline;
+  background-color: goldenrod;
+  border-radius: 10px;
+  font-size: 90px;
+}
+h1 {
+  text-align: center;
+}
+.heart {
+  font-size: 20rem;
+  animation: heart 0.5s alternate linear infinite;
+  color: red;
+}
+@keyframes heart {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
